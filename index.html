@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WELLIAS — Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --color-ink: #26331a;
+    --color-dark-olive: #283618;
+    --color-cream: #FEFAE0;
+    --color-sage: #606C38;
+    --font-main: 'Outfit', sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: var(--font-main);
+    color: var(--color-ink);
+    background: #F7F8EF;
+    line-height: 1.6;
+  }
+
+  .mesh-bg {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    overflow: hidden;
+  }
+  .mesh-bg span { position: absolute; border-radius: 50%; filter: blur(80px); }
+  .mesh-bg .b1 { width: 420px; height: 420px; background: #D7E6BE; top: -120px; right: -100px; opacity: 0.6; }
+  .mesh-bg .b2 { width: 380px; height: 380px; background: #EAF0DA; bottom: -100px; left: -120px; opacity: 0.7; }
+
+  .wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 64px 24px 100px;
+  }
+
+  header { margin-bottom: 48px; }
+  .brand {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    color: var(--color-sage);
+    margin-bottom: 18px;
+  }
+  h1 {
+    font-size: 34px;
+    font-weight: 500;
+    color: var(--color-ink);
+    margin-bottom: 10px;
+  }
+  .lede {
+    font-weight: 300;
+    font-size: 16px;
+    color: #5c6647;
+    max-width: 46ch;
+  }
+
+  .contact-card {
+    background: rgba(255,255,255,0.6);
+    backdrop-filter: blur(18px) saturate(180%);
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 20px;
+    padding: 24px 26px;
+    margin-bottom: 56px;
+    box-shadow: 0 14px 30px -14px rgba(40,54,24,0.25);
+  }
+  .contact-card p {
+    font-weight: 300;
+    font-size: 15px;
+    color: #5c6647;
+    margin-bottom: 14px;
+  }
+  .email-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--color-dark-olive);
+    color: var(--color-cream);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 22px;
+    border-radius: 30px;
+  }
+
+  h2 {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-sage);
+    margin: 40px 0 20px;
+  }
+
+  .faq-item {
+    border-bottom: 1px solid rgba(96,108,56,0.18);
+    padding: 20px 0;
+  }
+  .faq-item:first-of-type { border-top: 1px solid rgba(96,108,56,0.18); }
+  .faq-q {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-ink);
+    margin-bottom: 8px;
+  }
+  .faq-a {
+    font-weight: 300;
+    font-size: 15px;
+    color: #5c6647;
+  }
+  .faq-a a { color: var(--color-sage); }
+
+  footer {
+    margin-top: 64px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #8a9270;
+  }
+</style>
+</head>
+<body>
+
+  <div class="mesh-bg"><span class="b1"></span><span class="b2"></span></div>
+
+  <div class="wrap">
+    <header>
+      <div class="brand">WELLIAS</div>
+      <h1>Support</h1>
+      <p class="lede">Questions, feedback, or something not working the way it should? We read every message ourselves.</p>
+    </header>
+
+    <div class="contact-card">
+      <p>The fastest way to reach us is by email — we typically reply within 2–3 business days.</p>
+      <a class="email-link" href="mailto:wellias.support@gmail.com?subject=WELLIAS%20Support">wellias.support@gmail.com</a>
+    </div>
+
+    <h2>Frequently asked questions</h2>
+
+    <div class="faq-item">
+      <div class="faq-q">I bought "Unlock Nutraceuticals" or "Remove Ads" on another device. How do I get it back?</div>
+      <div class="faq-a">Open WELLIAS, tap the stats icon on the level-select screen, and use the "Restore purchase" link in either purchase screen. Purchases are tied to your Apple ID, not to a specific phone.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">I was charged but the level/feature didn't unlock.</div>
+      <div class="faq-a">First try "Restore purchase" (see above). If that doesn't resolve it, email us with your Apple order ID (found in your Apple ID purchase history) and we'll help sort it out.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">How do I request a refund?</div>
+      <div class="faq-a">All payments are processed by Apple, so refunds are handled directly through Apple, not by us. You can request one at <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a>.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">Can I change the game's language?</div>
+      <div class="faq-a">Yes — tap the flag icon on the level-select screen to switch between English, Russian, and Spanish at any time.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">I found a translation mistake or a term that seems wrong.</div>
+      <div class="faq-a">Thank you — please email us the exact term and level, and we'll take a look.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">How do I turn off sound or ads?</div>
+      <div class="faq-a">Sound: tap the speaker icon on the level-select screen. Ads: purchase "Remove Ads" from the stats screen to remove them permanently.</div>
+    </div>
+
+    <footer>
+      WELLIAS · wellias.support@gmail.com
+    </footer>
+  </div>
+
+</body>
+</html>
